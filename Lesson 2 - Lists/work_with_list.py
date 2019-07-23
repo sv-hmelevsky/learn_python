@@ -12,7 +12,20 @@ print(range_list)
 
 # List of squares of whole numbers from 1 to 10
 squares_range = list(range(1, 11))
-result_result = []
-for square_number in squares_range:
-    result_result.append(square_number ** 2)
-print(result_result)
+square_result = []
+for value in squares_range:
+    square_result.append(value ** 2)
+print(square_result)
+
+# Minimum
+print(min(square_result))
+
+# Maximum
+print(max(square_result))
+
+# Sum
+print(sum(square_result))
+
+# Range short notation
+square_short = [value ** 2 for value in range(1, 16)]
+print(square_short)
